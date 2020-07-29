@@ -83,9 +83,11 @@
 #define ORIG_E0_AUTO_FAN_PIN 44
 #define CONTROLLER_FAN_PIN  7
 
-// Heaters
-#define HEATER_0_PIN       10
-#define HEATER_1_PIN       45
+// Heaters - swapped for ZP usage
+//#define HEATER_0_PIN       10
+//#define HEATER_1_PIN       45
+#define HEATER_0_PIN       45
+#define HEATER_1_PIN       10
 #define HEATER_BED_PIN      8
 
 // Temperatursensoren
